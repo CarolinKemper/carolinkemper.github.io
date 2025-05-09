@@ -1,9 +1,11 @@
 <nav class="main-nav">
     <ul class="nav-list">
-        <li class="nav-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li class="nav-item"><a href="{{ 'index.md' | relative_url }}">Home</a></li>
+
+        <li class="nav-item"><a href="{{ 'about\aboutme.md' | relative_url }}">About Me</a></li>
         
         <li class="nav-item dropdown">
-            <a href="#" class="dropdown-toggle">About</a>
+            <a href="#" class="dropdown-toggle">Topics</a>
             <ul class="dropdown-menu">
                 <li><a href="{{ '/about/bio' | relative_url }}">Biography</a></li>
                 <li><a href="{{ '/about/cv' | relative_url }}">CV</a></li>
@@ -11,14 +13,14 @@
         </li>
         
         <li class="nav-item dropdown">
-            <a href="#" class="dropdown-toggle">Projects</a>
+            <a href="#" class="dropdown-toggle">Puclications and Talks</a>
             <ul class="dropdown-menu">
                 <li><a href="{{ '/projects/current' | relative_url }}">Current</a></li>
                 <li><a href="{{ '/projects/past' | relative_url }}">Past</a></li>
             </ul>
         </li>
         
-        <li class="nav-item"><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+        <li class="nav-item"><a href="{{ '/contact' | relative_url }}">Misc.</a></li>
     </ul>
 </nav>
 
