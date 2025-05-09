@@ -149,11 +149,9 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 1.5rem;
+    gap: 5rem;
     margin-bottom: 1rem;
-    width: 20px;
-    height: 20px;
-}
+    }
 
 .social-icons a {
     color: #452aa2;
