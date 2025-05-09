@@ -45,7 +45,6 @@ body {
 /* Navigation styles */
 .main-nav {
     background-color: rgba(69, 42, 162, 0.42); /* #452aa2 with 42% transparency */
-    color:  rgba(69, 42, 162, 0.42);
     padding: 0.5rem 0;
 }
 
