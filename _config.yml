@@ -34,7 +34,7 @@ defaults:
 
 #Troubleshooting
 include:
-  - images
+  - assets
 
 # Exclude from processing
 exclude:
