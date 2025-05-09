@@ -44,7 +44,8 @@ body {
 
 /* Navigation styles */
 .main-nav {
-    background-color: rgba(69, 42, 162, 0.42); /* #452aa2 with 42% transparency */
+    background-color: rgba(69, 42, 162, 0.13); /* #452aa2 with 42% transparency */
+    max-width: 1200px;
     padding: 0.5rem 0;
 }
 
@@ -80,7 +81,7 @@ body {
     position: absolute;
     background-color: #452aa2;
     min-width: 160px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px  rgba(69, 42, 162, 0.13);
     z-index: 1;
     list-style: none;
     padding: 0.5rem 0;
