@@ -33,7 +33,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;  /* Creates circular frame */
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 .portrait-placeholder img {
