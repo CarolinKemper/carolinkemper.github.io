@@ -32,6 +32,10 @@ defaults:
     values:
       layout: "page"
 
+#Troubleshooting
+include:
+  - images
+
 # Exclude from processing
 exclude:
   - Gemfile
