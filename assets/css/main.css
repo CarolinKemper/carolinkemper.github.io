@@ -144,3 +144,29 @@ footer {
     background-color: #f8f9fa;
     margin-top: 2rem;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.social-icons a {
+    color: #452aa2;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.social-icons a:hover {
+    color: #2d1c6b;
+}
+
+.social-icons a svg {
+    width: 24px;
+    height: 24px;
+}

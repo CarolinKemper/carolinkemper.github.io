@@ -28,4 +28,28 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     });
+    
+    // Mobile-friendly social icons - Truncate text on small screens
+    function adjustSocialIcons() {
+        const socialIcons = document.querySelectorAll('.social-icons a');
+        if (window.innerWidth < 768) {
+            socialIcons.forEach(icon => {
+                const textSpan = icon.querySelector('span');
+                if (textSpan) {
+                    textSpan.style.display = 'none';
+                }
+            });
+        } else {
+            socialIcons.forEach(icon => {
+                const textSpan = icon.querySelector('span');
+                if (textSpan) {
+                    textSpan.style.display = 'inline';
+                }
+            });
+        }
+    }
+    
+    // Run on load and resize
+    adjustSocialIcons();
+    window.addEventListener('resize', adjustSocialIcons);
 });
