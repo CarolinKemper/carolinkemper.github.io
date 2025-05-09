@@ -51,8 +51,8 @@ body {
 .nav-list {
     display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    margin: 2rem auto;
+    padding: 0 2rem;
     justify-content: left;
 }
 
