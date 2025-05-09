@@ -29,17 +29,19 @@ body {
     flex-grow: 1;
 }
 
-.portrait {
+.portrait-placeholder {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 50%;  /* Creates circular frame */
     overflow: hidden;
+    border: 3px solid white;  /* Optional: adds a white border */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  /* Optional: adds subtle shadow */
 }
 
-.portrait img {
+.portrait-placeholder img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;  /* This ensures the image fills the circular frame properly */
 }
 
 /* Navigation styles */
