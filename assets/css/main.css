@@ -33,8 +33,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;  /* Creates circular frame */
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);  /* Optional: adds subtle shadow */
+    /*overflow: hidden;*/
 }
 
 .portrait-placeholder img {
@@ -148,7 +147,6 @@ footer {
 
 .social-icons {
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 5rem;
     margin-bottom: 1rem;
