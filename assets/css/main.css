@@ -45,16 +45,17 @@ body {
 /* Navigation styles */
 .main-nav {
     background-color: rgba(69, 42, 162, 0.13); /* #452aa2 with 42% transparency */
-    max-width: 1200px;
+    
     padding: 0.5rem 0;
 }
 
 .nav-list {
     display: flex;
     list-style: none;
+    justify-content: flex-start;
+    max-width: 1200px;
     margin: 1rem auto;
     padding: 0 2rem;
-    justify-content: flex-start;
 }
 
 .nav-item {
@@ -64,7 +65,7 @@ body {
 
 .nav-item a {
     color: #452aa2;
-    font-size: 1.5rem
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
     padding: 0.5rem 1rem;
