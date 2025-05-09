@@ -80,9 +80,9 @@ body {
 .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #452aa2;
+    background-color: rgba(69, 42, 162, 0.13);
     min-width: 160px;
-    box-shadow: 0 8px 16px  rgba(69, 42, 162, 0.13);
+    box-shadow: 0 8px 16px  #452aa2;
     z-index: 1;
     list-style: none;
     padding: 0.5rem 0;
