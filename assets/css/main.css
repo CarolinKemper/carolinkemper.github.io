@@ -52,7 +52,7 @@ body {
 .nav-list {
     display: flex;
     list-style: none;
-    justify-content: flex-start;
+    justify-content: left;
     max-width: 1200px;
     margin: 1rem auto;
     padding: 0 2rem;
@@ -65,7 +65,7 @@ body {
 
 .nav-item a {
     color: #452aa2;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: bold;
     text-decoration: none;
     padding: 0.5rem 1rem;
