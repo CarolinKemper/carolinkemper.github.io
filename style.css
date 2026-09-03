@@ -17,10 +17,15 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   background-color: var(--bg-dark);
   color: var(--text-main);
   line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  letter-spacing: 0.5px; /* Adds subtle spacing for serif titles */
 }
 
 /* Header & Navigation */
