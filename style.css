@@ -56,6 +56,22 @@ a:visited {
   border-bottom: 2px solid var(--accent);
 }
 
+/* Align image and logo text side-by-side */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* Space between image and text */
+}
+
+/* Small nav profile picture styling */
+.nav-profile-pic {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--accent); /* Uses your #4B3B8B accent */
+}
+
 .logo {
   font-size: 1.25rem;
   font-weight: bold;
