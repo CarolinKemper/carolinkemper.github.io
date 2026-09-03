@@ -73,6 +73,13 @@ a:visited {
   display: block;
 }
 
+.general-pic {
+  width: 130px!important;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
+
 .logo {
   font-size: 1.25rem;
   font-weight: bold;
