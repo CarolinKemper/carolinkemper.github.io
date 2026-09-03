@@ -65,8 +65,8 @@ a:visited {
 
 /* Small nav profile picture styling */
 .nav-profile-pic {
-  width: 42px!important;
-  height: 42px!important;
+  width: 56px!important;
+  height: 56px!important;
   object-fit: cover;
   border-radius: 50%;
   flex-shrink: 0;
