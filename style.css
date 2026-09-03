@@ -65,11 +65,12 @@ a:visited {
 
 /* Small nav profile picture styling */
 .nav-profile-pic {
-  width: 32px;
-  height: 32px;
+  width: 32px!important;
+  height: 32px!important;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid var(--accent); /* Uses your #4B3B8B accent */
+  flex-shrink: 0;
+  display: block;
 }
 
 .logo {
