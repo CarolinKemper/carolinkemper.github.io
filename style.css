@@ -122,6 +122,17 @@ h1, h2, h3 {
   font-size: 0.95rem;
 }
 
+/* Headshot Image Styling */
+.headshot {
+  width: 150px;                 /* Sets a fixed size */
+  height: 150px;                /* Keeps aspect ratio square */
+  object-fit: cover;            /* Prevents image stretching */
+  border-radius: 50%;           /* Crops the image into a circle */
+  border: 3px solid var(--accent); /* Adds your #4B3B8B accent border */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Subtle drop shadow */
+  margin-bottom: 1.5rem;        /* Adds space below the picture */
+}
+
 /* Footer */
 footer {
   text-align: center;
