@@ -28,6 +28,24 @@ h1, h2, h3 {
   letter-spacing: 0.5px; /* Adds subtle spacing for serif titles */
 }
 
+/* Styling for all hyperlinks */
+a {
+  color: #8479D9;
+  text-decoration: none; /* Optional: removes the default underline */
+  transition: color 0.2s ease; /* Smooth hover transition */
+}
+
+/* Hover state: change color or underline when a user hovers over the link */
+a:hover {
+  color: #9F96EA; /* Slightly lighter shade for the hover state */
+  text-decoration: underline;
+}
+
+/* Visited state: keeps visited links the same color */
+a:visited {
+  color: #8479D9;
+}
+
 /* Header & Navigation */
 .navbar {
   display: flex;
