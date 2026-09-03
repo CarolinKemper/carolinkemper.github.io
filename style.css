@@ -74,10 +74,11 @@ a:visited {
 }
 
 .general-pic {
-  width: 130px!important;
+  width: 240px!important;
   object-fit: cover;
   flex-shrink: 0;
   display: block;
+  margin: 0 auto;
 }
 
 .logo {
